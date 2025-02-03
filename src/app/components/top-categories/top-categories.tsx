@@ -1,35 +1,27 @@
-'use client'
 
 
 
-import React, { useEffect, useState } from "react";
-import Image from "next/image";
-import { client } from "@/sanity/lib/client";
-
-
-interface Books {
+interface books {
   id: number;
   title: string;
   imageUrl: string;
 }
 
-export default function TopCategories() {
+
+import Image from "next/image";
+import { client } from "@/sanity/lib/client";
+
   
-  const [data, setData] = useState<Books[]>([]);
-
-  useEffect(() => {
+  
+  export default async function Product() {
+    const data = await client.fetch<books[]>(`*[_type == 'categories']{
+   title,
+     "imageUrl":image.asset->url,
+     _id
+     
+ }`)
     
-    const fetchData = async () => {
-      const result = await client.fetch<Books[]>(`*[_type == 'categories']{
-        title,
-        "imageUrl": image.asset->url,
-        _id
-      }`);
-      setData(result);
-    };
-
-    fetchData();
-  }, []); 
+ console.log(data)
 
   return (
     <div className="overflow-x-hidden">

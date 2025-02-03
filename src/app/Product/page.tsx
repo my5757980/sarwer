@@ -18,6 +18,8 @@ interface books {
      _id
      
  }`)
+
+ console.log(data)
     
     
     return (
