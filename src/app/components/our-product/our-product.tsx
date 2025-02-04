@@ -17,7 +17,7 @@ export default function OurProduct() {
                 <div className="lg:flex  ">
                     <div className="md:flex md:gap-10">
                         <div>
-                            <Image className="lg:w-[200px]  sm:w-[250px] " src="/image/Image.png" alt="logo" width={212} height={312} />
+                            <Image className="lg:w-[200px] transition-transform transform hover:scale-110  duration-500  sm:w-[250px] " src="/image/Image.png" alt="logo" width={212} height={312} />
                             <div className="flex">
                                 <p className="text-[#007580] sm:text-[20px] lg:font-bold lg:text-[13px] sm:mb-[5px]"> Library Stool Chair</p>
                                 <BsCartDash  className="w-[33px] h-[33px] bg-[#029FAE] rounded-[5px] text-white relative top-[11px] left-[40px]"/>
@@ -31,7 +31,7 @@ export default function OurProduct() {
 
                         <div>
 
-                            <Image className="  lg:w-[200px] sm:w-[250px] lg:mr-[45px] " src="/image/Image (1).png" alt="logo" width={212} height={312} />
+                            <Image className="transition-transform transform hover:scale-110  duration-500  lg:w-[200px] sm:w-[250px] lg:mr-[45px] " src="/image/Image (1).png" alt="logo" width={212} height={312} />
                             <div className="flex">
                                 <p className="text-[#272343]  sm:text-[20px] lg:font-bold lg:text-[13px] sm:mb-[5px]">Library Stool Chair</p>
                                 <BsCartDash  className="w-[33px] h-[33px] bg-[#F0F2F3] rounded-[5px] relative top-[11px] left-[40px]"/>
@@ -48,7 +48,7 @@ export default function OurProduct() {
 
                     <div className="md:flex md:gap-10">
                         <div>
-                            <Image className="  lg:w-[200px] sm:w-[250px] " src="/image/Frame.png" alt="logo" width={212} height={312} />
+                            <Image className="transition-transform transform hover:scale-110  duration-500  lg:w-[200px] sm:w-[250px] " src="/image/Frame.png" alt="logo" width={212} height={312} />
                             <div className="flex">
                                 <p className="text-[#272343]  sm:text-[20px] lg:font-bold lg:text-[13px] sm:mb-[5px]">Library Stool Chair</p>
                                 <BsCartDash  className="w-[33px] h-[33px] bg-[#F0F2F3] rounded-[5px] relative top-[11px] left-[40px]"/>
@@ -60,7 +60,7 @@ export default function OurProduct() {
 
 
                         <div>
-                            <Image className="  lg:w-[200px] sm:w-[250px] " src="/image/01.png" alt="logo" width={212} height={312} />
+                            <Image className="transition-transform transform hover:scale-110  duration-500  lg:w-[200px] sm:w-[250px] " src="/image/01.png" alt="logo" width={212} height={312} />
                             <div className="flex">
                                 <p className="text-[#272343]  sm:text-[20px] lg:font-bold lg:text-[13px] sm:mb-[5px]">Library Stool Chair</p>
                                 <BsCartDash  className="w-[33px] h-[33px] bg-[#F0F2F3] rounded-[5px] relative top-[11px] left-[40px]"/>
@@ -105,7 +105,7 @@ export default function OurProduct() {
                         <div className="md:flex md:gap-10">
 
                             <div>
-                                <Image className="  lg:w-[200px] sm:w-[250px] " src="/image/Frame (3).png" alt="logo" width={212} height={312} />
+                                <Image className="transition-transform transform hover:scale-110  duration-500  lg:w-[200px] sm:w-[250px] " src="/image/Frame (3).png" alt="logo" width={212} height={312} />
                                 <div className="flex">
                                     <p className="text-[#272343]  sm:text-[20px] lg:font-bold lg:text-[13px] sm:mb-[5px]">Library Stool Chair</p>
                                     <BsCartDash  className="w-[33px] h-[33px] bg-[#F0F2F3] rounded-[5px] relative top-[11px] left-[40px]"/>
@@ -118,7 +118,7 @@ export default function OurProduct() {
 
 
                             <div>
-                                <Image className=" lg:w-[200px]  lg:mr-[45px] sm:w-[250px] " src="/image/card.png" alt="logo" width={212} height={312} />
+                                <Image className="transition-transform transform hover:scale-110  duration-500 lg:w-[200px]  lg:mr-[45px] sm:w-[250px] " src="/image/card.png" alt="logo" width={212} height={312} />
                                 <div className="flex">
                                     <p className="text-[#272343]  sm:text-[20px] lg:font-bold lg:text-[13px] sm:mb-[5px]">Library Stool Chair</p>
                                     <BsCartDash  className="w-[33px] h-[33px] bg-[#F0F2F3] rounded-[5px] relative top-[11px] left-[40px]"/>
@@ -134,7 +134,7 @@ export default function OurProduct() {
 
                         <div className="md:flex md:gap-10">
                             <div>
-                                <Image className=" lg:w-[200px] sm:w-[250px] " src="/image/Image (13).png" alt="logo" width={212} height={312} />
+                                <Image className="transition-transform transform hover:scale-110  duration-500 lg:w-[200px] sm:w-[250px] " src="/image/Image (13).png" alt="logo" width={212} height={312} />
                                 <div className="flex">
                                     <p className="text-[#272343]  sm:text-[20px] lg:font-bold lg:text-[13px] sm:mb-[5px]">Library Stool Chair</p>
                                     <BsCartDash  className="w-[33px] h-[33px] bg-[#F0F2F3] rounded-[5px] relative top-[11px] left-[40px]"/>
@@ -146,7 +146,7 @@ export default function OurProduct() {
 
 
                             <div>
-                                <Image className="  lg:w-[200px] sm:w-[250px] " src="/image/Image (5).png" alt="logo" width={212} height={312} />
+                                <Image className="transition-transform transform hover:scale-110  duration-500  lg:w-[200px] sm:w-[250px] " src="/image/Image (5).png" alt="logo" width={212} height={312} />
                                 <div className="flex">
                                     <p className="text-[#272343]  sm:text-[20px] lg:font-bold lg:text-[13px] sm:mb-[5px]">Library Stool Chair</p>
                                     <BsCartDash className="w-[33px] h-[33px] bg-[#F0F2F3] rounded-[5px] relative top-[11px] left-[40px]"/>

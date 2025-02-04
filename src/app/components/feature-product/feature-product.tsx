@@ -13,7 +13,7 @@ export default function FeatureProduct(){
 
             <div className="md:flex md:gap-8 md:relative md:right-[235px] lg:relative lg:left-[-11px]">
             <div className="md:relative md:bottom-[33px]">
-            <Image className="  md:w-[150px] md:h-[150px] sm:w-[250px] sm:h-[250px]    lg:w-[300px] lg:h-[200px] mb-[10px] mt-[33px]" src="/image/Image.png" alt="logo" width={200} height={200}/>
+            <Image className="  transition-transform transform hover:scale-110 duration-500 md:w-[150px] md:h-[150px] sm:w-[250px] sm:h-[250px]    lg:w-[300px] lg:h-[200px] mb-[10px] mt-[33px]" src="/image/Image.png" alt="logo" width={200} height={200}/>
             <div className="flex gap-6">
             <h1 className="text-nowrap text-[#007580] sm:text-[22px] md:text-[12px] md:mb-[18px] lg:text-[16px] ">Library Stool Chair</h1>
             <BsCartDash className="w-[33px] h-[33px] bg-[#029FAE] rounded-[5px] text-white"/>
@@ -23,7 +23,7 @@ export default function FeatureProduct(){
             </div>
 
             <div>
-            <Image  className=" md:w-[150px] md:h-[150px] sm:w-[250px] sm:h-[250px] mb-[10px] lg:w-[300px] lg:h-[200px] " src="/image/Image (15).png" alt="logo" width={200} height={200}/>
+            <Image  className=" transition-transform transform hover:scale-110 duration-500 md:w-[150px] md:h-[150px] sm:w-[250px] sm:h-[250px] mb-[10px] lg:w-[300px] lg:h-[200px] " src="/image/Image (15).png" alt="logo" width={200} height={200}/>
             <div className="flex gap-6">
             <h1 className="text-nowrap sm:text-[22px] md:text-[12px]  md:mb-[18px] lg:text-[16px]">Library Stool Chair</h1>
             <BsCartDash className="w-[33px] h-[33px] bg-[#F0F2F3] rounded-[5px]"/>
@@ -36,7 +36,7 @@ export default function FeatureProduct(){
             </div>
 
             <div>
-            <Image className=" md:w-[150px] md:h-[150px] sm:w-[250px] sm:h-[250px] mb-[10px] lg:w-[300px] lg:h-[200px] "src="/image/item-category 1.png" alt="logo" width={200} height={200}/>
+            <Image className=" transition-transform transform hover:scale-110 duration-500 md:w-[150px] md:h-[150px] sm:w-[250px] sm:h-[250px] mb-[10px] lg:w-[300px] lg:h-[200px] "src="/image/item-category 1.png" alt="logo" width={200} height={200}/>
             <div className="flex gap-6 ">
             <h1 className="text-nowrap  sm:text-[22px] md:text-[12px] md:mb-[18px] lg:text-[16px]">Library Stool Chair</h1>
             <BsCartDash className="w-[33px] h-[33px] bg-[#F0F2F3] rounded-[5px]"/>
@@ -45,7 +45,7 @@ export default function FeatureProduct(){
               </div>
 
               <div>
-            <Image  className=" md:w-[150px] md:h-[150px] sm:w-[250px] sm:h-[250px] mb-[10px] lg:w-[300px] lg:h-[200px] " src="/image/Image (9).png" alt="logo" width={200} height={200}/>
+            <Image  className=" transition-transform transform hover:scale-110 duration-500  md:w-[150px] md:h-[150px] sm:w-[250px] sm:h-[250px] mb-[10px] lg:w-[300px] lg:h-[200px] " src="/image/Image (9).png" alt="logo" width={200} height={200}/>
             <div className="flex gap-6">
             <h1 className="text-nowrap sm:text-[22px] md:text-[12px] md:mb-[18px] lg:text-[16px] ">Library Stool Chair</h1>
             <BsCartDash className="w-[33px] h-[33px] bg-[#F0F2F3] rounded-[5px]"/>

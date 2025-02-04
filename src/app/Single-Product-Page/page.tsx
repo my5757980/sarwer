@@ -46,7 +46,7 @@ export default function SingleProductPage() {
 
 
             <div className="lg:relative lg:right-[117px]">
-              <Image className=" mb-[8px] lg:w-[180px] lg:h-[180px] sm:w-[200px] md:w-[120px] md:h-[120px]" src="/image/Image (13).png" alt="logo" width={150} height={150} />
+              <Image className=" mb-[8px] transition-transform transform hover:scale-110  duration-500 lg:w-[180px] lg:h-[180px] sm:w-[200px] md:w-[120px] md:h-[120px]" src="/image/Image (13).png" alt="logo" width={150} height={150} />
               <div className="flex gap-12  ">
                 <h1 className="sm:font-semibold text-[10px] md:text-[7px] md:text-nowrap lg:font-bold ">Library Stool Chair</h1>
                 <p className="sm:font-semibold text-[10px] sm:pl-[44px] md:relative md:right-[55px] lg:font-bold lg:relative lg:left-[1px] ">$99</p>
@@ -55,7 +55,7 @@ export default function SingleProductPage() {
 
 
             <div className="md:relative md:right-[44px] lg:relative lg:right-[120px]">
-              <Image className="  mb-[8px]  lg:w-[180px] lg:h-[180px]  sm:w-[200px] md:w-[120px] md:h-[120px]" src="/image/card (1).png" alt="logo" width={150} height={150} />
+              <Image className="transition-transform transform hover:scale-110  duration-500   mb-[8px]  lg:w-[180px] lg:h-[180px]  sm:w-[200px] md:w-[120px] md:h-[120px]" src="/image/card (1).png" alt="logo" width={150} height={150} />
               <div className="flex gap-12 ">
                 <h1 className="sm:font-semibold text-[10px] md:text-[7px] md:text-nowrap lg:font-bold ">Library Stool Chair</h1>
                 <p className="sm:font-semibold text-[10px] sm:pl-[44px] md:relative md:right-[55px] lg:font-bold   lg:relative lg:left-[1px]">$99</p>
@@ -64,7 +64,7 @@ export default function SingleProductPage() {
 
 
             <div className="md:relative md:right-[87px] lg:relative lg:right-[120px]">
-              <Image className=" mb-[8px]  lg:w-[180px] lg:h-[180px] sm:w-[200px] md:w-[120px] md:h-[120px]" src="/image/image1.png" alt="logo" width={150} height={150} />
+              <Image className=" mb-[8px] transition-transform transform hover:scale-110  duration-500  lg:w-[180px] lg:h-[180px] sm:w-[200px] md:w-[120px] md:h-[120px]" src="/image/image1.png" alt="logo" width={150} height={150} />
               <div className="flex gap-12 ">
                 <h1 className="sm:font-semibold text-[10px] md:text-[7px] md:text-nowrap lg:font-bold ">Library Stool Chair</h1>
                 <p className="sm:font-semibold text-[10px] sm:pl-[44px] md:relative md:right-[55px] lg:font-bold   lg:relative lg:left-[1px]">$99</p>
@@ -73,7 +73,7 @@ export default function SingleProductPage() {
 
 
             <div className="md:relative md:right-[127px] lg:relative lg:right-[117px]">
-              <Image className="mb-[8px]  lg:w-[180px] lg:h-[180px]   sm:w-[200px] md:w-[120px] md:h-[120px]" src="/image/item-category 1.png" alt="logo" width={150} height={150} />
+              <Image className="mb-[8px] transition-transform transform hover:scale-110  duration-500  lg:w-[180px] lg:h-[180px]   sm:w-[200px] md:w-[120px] md:h-[120px]" src="/image/item-category 1.png" alt="logo" width={150} height={150} />
               <div className="flex gap-12">
                 <h1 className="sm:font-semibold text-[10px] md:text-[7px] md:text-nowrap lg:font-bold ">Library Stool Chair</h1>
                 <p className="sm:font-semibold text-[10px] sm:pl-[44px] md:relative md:right-[55px] lg:font-bold   lg:relative lg:left-[1px]">$99</p>
@@ -82,7 +82,7 @@ export default function SingleProductPage() {
 
 
             <div className="md:relative md:right-[170px] lg:relative lg:right-[115px]">
-              <Image className=" mb-[8px]  lg:w-[180px] lg:h-[180px] sm:w-[200px] md:w-[120px] md:h-[120px]" src="/image/Image (10).png" alt="logo" width={150} height={150} />
+              <Image className=" transition-transform transform hover:scale-110  duration-500 mb-[8px]  lg:w-[180px] lg:h-[180px] sm:w-[200px] md:w-[120px] md:h-[120px]" src="/image/Image (10).png" alt="logo" width={150} height={150} />
               <div className="flex gap-12">
                 <h1 className="sm:font-semibold text-[10px] md:text-[7px] md:text-nowrap lg:font-bold ">Library Stool Chair</h1>
                 <p className="sm:font-semibold text-[10px] sm:pl-[44px] md:relative md:right-[55px] lg:font-bold lg:relative lg:left-[1px]">$99</p>

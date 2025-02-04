@@ -31,12 +31,12 @@ export default function About(){
              <div className="flex flex-col items-center gap-5 lg:flex lg:flex-row   ">
               <div className="md:flex gap-10">
 
-             <div className="bg-[#f9f9f9]  w-[200px] h-[120px] mb-[20px] sm:w-[240px] sm:h-[150px]">
+             <div className="bg-[#f9f9f9] transition-transform transform hover:scale-110  duration-500  w-[200px] h-[120px] mb-[20px] sm:w-[240px] sm:h-[150px]">
               <Image className=" sm:w-[35px] sm:ml-[13px] sm:mb-[10px] pl-[10px] pt-[10px] "src="/image/Delivery.png" alt="logo" width={24} height={24}/>
               <h1 className=" text-[#007580] text-[12px]  pl-[10px] pb-[5px] sm:pl-[25px] sm:text-[15]">Next day as standard</h1>
               <p className=" text-[#007580] text-[9px] pr-10 pl-[10px] sm:text-[11px] sm:pl-[25px]">Order before 3pm and get your order the next day as standard</p>
              </div>
-             <div className="bg-[#f9f9f9]  w-[200px] h-[120px] sm:w-[240px] sm:h-[150px]">
+             <div className="bg-[#f9f9f9] transition-transform transform hover:scale-110  duration-500  w-[200px] h-[120px] sm:w-[240px] sm:h-[150px]">
              <Image className="sm:w-[35px] sm:ml-[13px] sm:mb-[10px] pl-[10px] pt-[10px]" src="/image/Checkmark--outline.png" alt="logo" width={24} height={24}/>
              <h1 className="sm:pl-[25px] sm:text-[15] text-[#007580] text-[12px] pl-[10px] pb-[5px]">Made by true artisans</h1>
              <p className="sm:text-[11px] sm:pl-[25px] text-[#007580] text-[9px] pr-10 pl-[10px]">Handmade crafted goods made with real passion and craftmanship</p>
@@ -45,12 +45,12 @@ export default function About(){
              </div>
 
              <div className="md:flex md:gap-10">
-             <div className="bg-[#f9f9f9]  w-[200px] h-[120px] mb-[20px] sm:w-[240px] sm:h-[150px]">
+             <div className="bg-[#f9f9f9] transition-transform transform hover:scale-110  duration-500  w-[200px] h-[120px] mb-[20px] sm:w-[240px] sm:h-[150px]">
              <Image className="sm:w-[35px] sm:ml-[13px] sm:mb-[10px] pl-[10px] pt-[10px]"src="/image/Purchase.png" alt="logo" width={24} height={24}/>
              <h1 className="sm:pl-[25px] sm:text-[15] text-[#007580] text-[12px] pl-[10px] pb-[5px]">Unbeatable prices</h1>
              <p className="sm:text-[11px] sm:pl-[25px] text-[#007580] text-[9px] pr-10 pl-[10px]">For our materials and quality you won’t find better prices anywhere</p>
              </div>
-             <div className="bg-[#f9f9f9]  w-[200px] h-[120px] sm:w-[240px] sm:h-[150px]">
+             <div className="bg-[#f9f9f9] transition-transform transform hover:scale-110  duration-500  w-[200px] h-[120px] sm:w-[240px] sm:h-[150px]">
              <Image className="sm:w-[35px] sm:ml-[13px] sm:mb-[10px] pl-[10px] pt-[10px]"src="/image/Sprout.png" alt="logo" width={24} height={24}/>
              <h1 className=" sm:pl-[25px] sm:text-[15] text-[#007580] text-[12px] pl-[10px] pb-[5px]">Recycled packaging</h1>
              <p className="sm:text-[11px] sm:pl-[25px] text-[#007580] text-[9px] pr-10 pl-[10px]">We use 100% recycled to ensure our footprint is more manageable</p>
