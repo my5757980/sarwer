@@ -10,6 +10,7 @@ interface books {
 
 import Image from "next/image"
 import { client } from "@/sanity/lib/client";
+import Link from "next/link";
 import { BsCartDash } from "react-icons/bs";
 export default async function SingleProductPage({ params }: { params: { productid: string } }) {
 const data = await client.fetch<books[]>(`*[_type == 'products']{
@@ -70,7 +71,9 @@ const data = await client.fetch<books[]>(`*[_type == 'products']{
           {/* feature product */}
           <div className="flex justify-center gap-24 sm:flex ">
             <h1 className="font-bold sm:text-[15px] sm:text-nowrap md:mt-[40px] md:mr-[410px] text-nowrap sm:mr-[150px] lg:mr-[650px]">Featured Products</h1>
-            <h1 className=" underline font-bold sm:text-[15px] sm:text-nowrap  md:mt-[40px] text-nowrap">View  all</h1>
+            <Link href="/Product">
+            <button className=" underline font-bold sm:text-[15px] sm:text-nowrap  md:mt-[40px] text-nowrap">View  all</button>
+          </Link>
           </div>
 
 
