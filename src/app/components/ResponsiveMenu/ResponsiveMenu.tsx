@@ -22,7 +22,7 @@ const ResponsiveMenu=({open}:any)=>{
                                         <Link href="Product">Product</Link>
                                     </li>
                                     <li className="underline font-bold text-white">
-                                        <Link href="Single-Product-Page">Single-ProductPage</Link>
+                                        <Link href="Single-Product-Page">Single-Product-Page</Link>
                                     </li>
                                     <li className="underline font-bold text-white">
                                         <Link href="Cart">Cart</Link>
