@@ -71,17 +71,20 @@ export default function About(){
 
               <p className="mt-[15px] font-semibold  md:text-start sm:text-[25px] lg:text-[30px]">Our Popular Products </p>
               <div className="md:flex md:gap-16">
-              <div>
+              <div className="">
                 <Image className="md:w-[250px] sm:w-[300px] w-[200px] lg:w-[350px]"src="/image/Large.png" alt="logo" width={150} height={150}/>
                 <h1 className="text-[14px] sm:text-[22px]">The Poplar suede sofa</h1>
                 <p className="text-[12px] sm:text-[18px]">$99.00</p>
               </div>
-              <div>
+
+              <div className="">
               <Image className="md:w-[130px] w-[200px] sm:w-[300px] lg:w-[170px]  "src="/image/Photo.png" alt="logo" width={120} height={120}/>
               <h1 className="text-[14px] sm:text-[22px]">The Dandy chair</h1>
               <p className="text-[12px] sm:text-[18px]">$99.00</p>
               </div>
-              <div>
+
+
+              <div className="">
               <Image className="md:w-[130px] w-[200px] sm:w-[300px] lg:w-[170px] "src="/image/Parent.png" alt="logo" width={120} height={120}/>
               <h1 className="text-[14px] sm:text-[22px]">The Dandy chair</h1>
               <p className="text-[12px] sm:text-[18px]">$99.00</p>

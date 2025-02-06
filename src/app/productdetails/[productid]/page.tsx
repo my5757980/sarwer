@@ -46,7 +46,7 @@ const data = await client.fetch<books[]>(`*[_type == 'products']{
 
       {/* section 1 */}
 
-      <div className="w-[200px] m-auto     sm:w-[250px] sm:m-auto    md:w-[700px] md:m-auto flex flex-col gap-2">
+      <div className="w-[200px] m-auto        md:w-[700px] md:m-auto flex flex-col gap-2">
         <div className="md:grid md:gap-5 md:grid-cols-2">
           <div className="md:col-span-1 lg:w-[500px] lg:m-auto">
             <Image className=" md:mt-[33px] lg:h-[500px] lg:relative lg:right-[140px] lg:w-[500px] md:w-[700px] md:h-[400px] sm:w-[250px]" src={product.imageUrl} alt="logo" width={200} height={607} />
@@ -61,73 +61,90 @@ const data = await client.fetch<books[]>(`*[_type == 'products']{
 
           </div>
         </div>
+        </div>
 
 
 
-        <div>
+      
 
 
 
           {/* feature product */}
-          <div className="flex justify-center gap-24 sm:flex ">
-            <h1 className="font-bold sm:text-[15px] sm:text-nowrap md:mt-[40px] md:mr-[410px] text-nowrap sm:mr-[150px] lg:mr-[650px]">Featured Products</h1>
+           <div>
+
+
+          <div className="flex justify-center gap-24 sm:flex pb-[33px] ">
+            <h1 className="font-bold sm:text-[15px] sm:text-nowrap md:mt-[40px] md:mr-[410px] text-nowrap sm:mr-[150px] lg:mr-[710px]">Featured Products</h1>
             <Link href="/Product">
             <button className=" underline font-bold sm:text-[15px] sm:text-nowrap  md:mt-[40px] text-nowrap">View  all</button>
           </Link>
           </div>
 
 
-          <div className="  md:mr-[500px] md:flex md:flex-row   md:mt-[33px]  md:w-16rem md:m-auto w-[150px] m-auto    sm:w-[200px] sm:m-auto flex flex-col gap-5 mt-[33px] sm:mt-[44px]  ">
+        <div className="m-auto w-[200px] md:m-auto md:w-[500px] lg:m-auto lg:w-[1000px]">
+          <div className="md:grid md:gap-5 md:grid-cols-2 lg:grid lg:gap-5 lg:grid-cols-5 flex flex-col gap-12 pb-[44px]">
+
+              
+               <div className="shadow-xl  w-[170px] h-[210px] transition-transform transform hover:scale-110  duration-500  ">
+              <Image className="" src="/image/Image (13).png" alt="logo" width={165} height={150} />
+              <div className="flex gap-4 pt-[11px] pb-[22px]">
+                <h1 className=" text-[15px]   ">Library Stool Chair</h1>
+                <p className="text-[15px]  ">$99</p>
+                </div>
+                </div>
+            
+        
 
 
-            <div className="lg:relative lg:right-[117px]">
-              <Image className=" mb-[8px] transition-transform transform hover:scale-110  duration-500 lg:w-[180px] lg:h-[180px] sm:w-[200px] md:w-[120px] md:h-[120px]" src="/image/Image (13).png" alt="logo" width={150} height={150} />
-              <div className="flex gap-12  ">
-                <h1 className="sm:font-semibold text-[10px] md:text-[7px] md:text-nowrap lg:font-bold ">Library Stool Chair</h1>
-                <p className="sm:font-semibold text-[10px] sm:pl-[44px] md:relative md:right-[55px] lg:font-bold lg:relative lg:left-[1px] ">$99</p>
-              </div>
+              <div className="shadow-xl   w-[170px] h-[210px]  transition-transform transform hover:scale-110  duration-500 ">
+              <Image className="  " src="/image/card (1).png" alt="logo" width={165} height={150} />
+              <div className=" flex gap-4 pt-[11px] pb-[22px]">
+                <h1 className="text-[15px]   ">Library Stool Chair</h1>
+                <p className="text-[15px]">$99</p>
+                </div>
+                </div>
+          
+          
+
+
+                <div className="shadow-xl   w-[170px]  h-[210px] transition-transform transform hover:scale-110  duration-500 ">
+              <Image className="" src="/image/image1.png" alt="logo" width={165} height={150} />
+              <div className="flex gap-4 pt-[11px] pb-[22px]">
+                <h1 className="text-[15px] ">Library Stool Chair</h1>
+                <p className="text-[15px] ">$99</p>
+                </div>
+                </div>
+        
+            
+
+
+             <div className="shadow-xl   w-[170px] h-[210px]   transition-transform transform hover:scale-110  duration-500 ">
+              <Image className="" src="/image/item-category 1.png" alt="logo" width={165} height={150} />
+              <div className="flex gap-4 pt-[11px] pb-[22px]">
+                <h1 className="text-[15px]">Library Stool Chair</h1>
+                <p className="text-[15px] ">$99</p>
+                </div>
+                </div>
+        
+            
+
+
+                 <div className="shadow-xl   w-[170px] h-[210px] transition-transform transform hover:scale-110  duration-500 ">
+              <Image className=" " src="/image/Image (10).png" alt="logo" width={165} height={150} />
+              <div className="flex gap-4 pt-[11px] pb-[22px]">
+                <h1 className="text-[15px] ">Library Stool Chair</h1>
+                <p className="text-[15px]">$99</p>
+                </div>
+                </div>
+                </div>
+          
+
+
             </div>
-
-
-            <div className="md:relative md:right-[44px] lg:relative lg:right-[120px]">
-              <Image className="transition-transform transform hover:scale-110  duration-500   mb-[8px]  lg:w-[180px] lg:h-[180px]  sm:w-[200px] md:w-[120px] md:h-[120px]" src="/image/card (1).png" alt="logo" width={150} height={150} />
-              <div className="flex gap-12 ">
-                <h1 className="sm:font-semibold text-[10px] md:text-[7px] md:text-nowrap lg:font-bold ">Library Stool Chair</h1>
-                <p className="sm:font-semibold text-[10px] sm:pl-[44px] md:relative md:right-[55px] lg:font-bold   lg:relative lg:left-[1px]">$99</p>
-              </div>
             </div>
-
-
-            <div className="md:relative md:right-[87px] lg:relative lg:right-[120px]">
-              <Image className=" mb-[8px] transition-transform transform hover:scale-110  duration-500  lg:w-[180px] lg:h-[180px] sm:w-[200px] md:w-[120px] md:h-[120px]" src="/image/image1.png" alt="logo" width={150} height={150} />
-              <div className="flex gap-12 ">
-                <h1 className="sm:font-semibold text-[10px] md:text-[7px] md:text-nowrap lg:font-bold ">Library Stool Chair</h1>
-                <p className="sm:font-semibold text-[10px] sm:pl-[44px] md:relative md:right-[55px] lg:font-bold   lg:relative lg:left-[1px]">$99</p>
-              </div>
-            </div>
-
-
-            <div className="md:relative md:right-[127px] lg:relative lg:right-[117px]">
-              <Image className="mb-[8px] transition-transform transform hover:scale-110  duration-500  lg:w-[180px] lg:h-[180px]   sm:w-[200px] md:w-[120px] md:h-[120px]" src="/image/item-category 1.png" alt="logo" width={150} height={150} />
-              <div className="flex gap-12">
-                <h1 className="sm:font-semibold text-[10px] md:text-[7px] md:text-nowrap lg:font-bold ">Library Stool Chair</h1>
-                <p className="sm:font-semibold text-[10px] sm:pl-[44px] md:relative md:right-[55px] lg:font-bold   lg:relative lg:left-[1px]">$99</p>
-              </div>
-            </div>
-
-
-            <div className="md:relative md:right-[170px] lg:relative lg:right-[115px]">
-              <Image className=" transition-transform transform hover:scale-110  duration-500 mb-[8px]  lg:w-[180px] lg:h-[180px] sm:w-[200px] md:w-[120px] md:h-[120px]" src="/image/Image (10).png" alt="logo" width={150} height={150} />
-              <div className="flex gap-12">
-                <h1 className="sm:font-semibold text-[10px] md:text-[7px] md:text-nowrap lg:font-bold ">Library Stool Chair</h1>
-                <p className="sm:font-semibold text-[10px] sm:pl-[44px] md:relative md:right-[55px] lg:font-bold lg:relative lg:left-[1px]">$99</p>
-              </div>
-
-
-            </div>
-          </div>
+          
         </div>
-      </div>
-    </div>
+  
+    
   )
 }

@@ -52,7 +52,7 @@ export default async function Product() {
 
 
       <div className="w-[220px] m-auto  md:w-[450px] md:m-auto lg:m-auto lg:w-[1000px]    ">
-        <div className="  md:grid md:gap-5 md:grid-cols-2 lg:grid lg:gap-5 lg:grid-cols-4 ">
+        <div className=" flex flex-col gap-16 md:grid md:gap-5 md:grid-cols-2 lg:grid lg:gap-5 lg:grid-cols-4 ">
           {
             data.map((elem) => {
               return (
@@ -62,9 +62,9 @@ export default async function Product() {
 
 
 
-                  <div className="">
+                  <div className="transition-transform transform hover:scale-110  duration-500 shadow-xl md:w-[230px]  w-[225px]">
                     <Link href={`/productdetails/${elem._id}`}>
-                      <Image className=" " src={elem.imageUrl} alt={elem.title} width={220} height={312} />
+                      <Image className="  " src={elem.imageUrl} alt={elem.title} width={220} height={312} />
                       <div className="flex">
                         <p className="text-[#007580] w-[145px] ">{elem.title}</p>
                         <BsCartDash className="  w-[44px] h-[44px] rounded-[5px] bg-[#029FAE] relative left-[33px] top-[10px] text-white " />
@@ -81,11 +81,22 @@ export default async function Product() {
             })
           }
 
-
-
-
         </div>
+
+
+
+      
       </div>
+
+
+      
+      <div className="flex justify-center gap-8 pt-[55px] ">
+                   
+                   <button className="transition-transform transform hover:scale-110  duration-500  text-white border-[3px] border-black bg-cyan-900 w-[100px] flex items-center justify-center h-[60px] text-[25px]">1</button> 
+                   <button className="transition-transform transform hover:scale-110  duration-500 text-white border-[3px] border-black bg-cyan-900 w-[100px] flex  items-center h-[60px] justify-center text-[25px]">2</button> 
+                   <button className="transition-transform transform hover:scale-110  duration-500 text-white  border-[3px] border-black bg-cyan-900 w-[100px] flex items-center justify-center h-[75px] text-[25px]">Next</button> 
+         </div>
+         
 
 
 
@@ -120,16 +131,16 @@ export default async function Product() {
 
 
           <div className="md:flex ">
-            <Image className="sm:w-[250px] lg:w-[120px] lg:h-[100px] mb-[45px]     md:mr-[45px]  " src="/image/Image (11).png" alt="logo" width={212} height={312} />
-            <Image className="sm:w-[250px]  lg:w-[120px] lg:h-[100px]   md:h-[250px]" src="/image/Image (10).png" alt="logo" width={212} height={312} />
+            <Image className=" transition-transform transform hover:scale-110  duration-500 sm:w-[250px] lg:w-[120px] lg:h-[100px] mb-[45px]     md:mr-[45px]  " src="/image/Image (11).png" alt="logo" width={212} height={312} />
+            <Image className=" transition-transform transform hover:scale-110  duration-500 sm:w-[250px]  lg:w-[120px] lg:h-[100px]   md:h-[250px]" src="/image/Image (10).png" alt="logo" width={212} height={312} />
           </div>
           <div className="md:flex">
-            <Image className="sm:w-[250px]  mb-[45px]  md:mr-[45px] lg:w-[120px] lg:h-[100px]   " src="/image/Image (15).png" alt="logo" width={212} height={312} />
-            <Image className="sm:w-[250px]  lg:w-[120px] lg:h-[100px]    md:h-[225px]" src="/image/card (1).png" alt="logo" width={212} height={312} />
+            <Image className=" transition-transform transform hover:scale-110  duration-500 sm:w-[250px]  mb-[45px]  md:mr-[45px] lg:w-[120px] lg:h-[100px]   " src="/image/Image (15).png" alt="logo" width={212} height={312} />
+            <Image className="transition-transform transform hover:scale-110  duration-500 sm:w-[250px]  lg:w-[120px] lg:h-[100px]    md:h-[225px]" src="/image/card (1).png" alt="logo" width={212} height={312} />
           </div>
           <div className="md:flex lg:me-[35px]">
-            <Image className="sm:w-[250px] lg:w-[120px] lg:h-[100px]  mb-[45px]  md:mr-[45px] " src="/image/item-category 1.png" alt="logo" width={212} height={312} />
-            <Image className="sm:w-[250px] lg:w-[120px]  md:h-[250px] lg:h-[100px] " src="/image/image1.png" alt="logo" width={212} height={312} />
+            <Image className=" transition-transform transform hover:scale-110  duration-500 sm:w-[250px] lg:w-[120px] lg:h-[100px]  mb-[45px]  md:mr-[45px] " src="/image/item-category 1.png" alt="logo" width={212} height={312} />
+            <Image className=" transition-transform transform hover:scale-110  duration-500 sm:w-[250px] lg:w-[120px]  md:h-[250px] lg:h-[100px] " src="/image/image1.png" alt="logo" width={212} height={312} />
           </div>
 
 

@@ -28,7 +28,7 @@ const ResponsiveMenu=({open}:any)=>{
                                         <Link href="Cart">Cart</Link>
                                     </li>
                                     <li className="underline font-bold text-white">
-                                        <Link href="Contact Us">Contact Us</Link>
+                                        <Link href="Contact-Us">Contact-Us</Link>
                                     </li>
                                       
                                     <li className="underline font-bold text-white">

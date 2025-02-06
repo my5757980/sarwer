@@ -4,14 +4,14 @@
 
 import Image from "next/image"
 import Link from "next/link"
-import React,{ useState } from "react"
+import React, { useState } from "react"
 import { GiHamburgerMenu } from "react-icons/gi";
 import ResponsiveMenu from "../ResponsiveMenu/ResponsiveMenu";
 
 
 
 export default function Navbar() {
-  const [open,setOpen] = useState(false)
+  const [open, setOpen] = useState(false)
   return (
     <div className="overflow-x-hidden">
 
@@ -21,8 +21,6 @@ export default function Navbar() {
       {/* Navbar */}
 
       <div>
-
-
         <div className=" md:bg-[#272343]  md:h-[50px] md:flex md:justify-around hidden  ">
 
           <div className="md:flex md:items-center md:gap-2">
@@ -77,10 +75,10 @@ export default function Navbar() {
             <Link href="Product">Product</Link>
             <Link href="Single-Product-Page">Single-Product-Page</Link>
             <Link href="Cart">Cart</Link>
-            <Link href="Contact Us">Contact Us</Link>
+            <Link href="Contact-Us">Contact-Us</Link>
             <Link href="Faq">Faq</Link>
             <Link href="About">About</Link>
-            
+
           </div>
           <div className="md:flex md:gap-2 md:mt-[33px] ">
             <p>Contact:</p>
@@ -94,21 +92,21 @@ export default function Navbar() {
 
       {/* mobileHamburger */}
 
-          <div className="md:hidden flex flex-row justify-end h-[60px] items-center  "onClick={()=>
-            setOpen(!open)
-          }>
+      <div className="md:hidden flex flex-row justify-end h-[60px] items-center  " onClick={() =>
+        setOpen(!open)
+      }>
 
-<GiHamburgerMenu className=" text-black size-10 relative right-4"/>
-
-
-          </div>
-
-          <ResponsiveMenu open={open}/>
-
-     
+        <GiHamburgerMenu className=" text-black size-10 relative right-4" />
 
 
-      
+      </div>
+
+      <ResponsiveMenu open={open} />
+
+
+
+
+
     </div>
   )
 }
