@@ -3,10 +3,12 @@
 
 
 import Image from "next/image"
+
 import Link from "next/link"
 import React, { useState } from "react"
 import { GiHamburgerMenu } from "react-icons/gi";
 import ResponsiveMenu from "../ResponsiveMenu/ResponsiveMenu";
+import { IoIosArrowDown } from "react-icons/io";
 
 
 
@@ -28,8 +30,36 @@ export default function Navbar() {
             <p className="md:text-white">Free shipping on all orders over $50</p>
           </div>
           <div className="md:flex md:items-center ">
-            <p className="md:text-white">Eng</p>
-            <Image className="md:ml-[5px] " src="/image/Vector (13).png" alt="logo" width={7} height={3.5} />
+
+
+
+
+            <Link className="group px-2 py-3 transition-all" href="">
+              <p className="flex cursor-pointer items-center gap-2 text-neutral-400 group-hover:text-gray-400">
+                <span>Eng</span>
+                <IoIosArrowDown className="rotate-180 transition-all group-hover:rotate-0" />
+              </p>
+              <div className="absolute top-10 hidden w-auto flex-col gap-1 rounded-lg bg-white py-3 shadow-md transition-all  group-hover:flex">
+
+                <div className="flex cursor-pointer items-center py-1 pl-6 pr-8 text-neutral-400 hover:text-black" >
+                  <ul>
+                    <li>
+                      <span className="whitespace-nowrap pl-3">History</span>
+                    </li>
+                    <li>
+                      <span className="whitespace-nowrap pl-3">Our Team</span>
+                    </li>
+                    <li>
+                      <span className="whitespace-nowrap pl-3">Blog</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </Link>
+
+
+
+
             <p className="md:text-white md:ml-[10px] md:mr-[10px]">Faqs</p>
             <Image src="/image/alert-circle 1.png" alt="logo" width={16} height={16} />
             <p className="md:text-white md:ml-[5px]">Need Help</p>
