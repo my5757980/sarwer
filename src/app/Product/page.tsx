@@ -82,11 +82,12 @@ export default async function Product() {
           }
 
         </div>
-
-
-
       
       </div>
+
+
+
+      {/* pagination */}
 
 
       
@@ -96,7 +97,33 @@ export default async function Product() {
                    <button className="transition-transform transform hover:scale-110  duration-500 text-white border-[3px] border-black bg-cyan-900 w-[100px] flex  items-center h-[60px] justify-center text-[25px]">2</button> 
                    <button className="transition-transform transform hover:scale-110  duration-500 text-white  border-[3px] border-black bg-cyan-900 w-[100px] flex items-center justify-center h-[75px] text-[25px]">Next</button> 
          </div>
-         
+
+
+{/* 
+          {
+
+          data.length > 0 && <div>
+            <div className="h-[90px] flex justify-center items-center gap-[8px] mt-10">
+              {[...Array(data.length/8)].map((_ ,i)=>{
+                return(
+                  <div key={i}>
+
+                    <span  onClick={()=>selectPageHandler(i+i)}className={`text`}></span>
+                  </div>
+
+                )
+              }
+              )
+
+              }
+
+            </div>
+          </div>
+         } */}
+          
+
+
+
 
 
 

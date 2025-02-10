@@ -63,7 +63,7 @@ const  ContactUs=()=>{
 
           <div className="md:col-span-1">
         <h1 className="pb-[11px] pt-[22px] ">your name</h1>
-        <input className="h-[44px] border-[2px] "placeholder="ABC"/>
+        <input className="h-[44px] border-[2px]     "placeholder="ABC"/>
         
 
 
@@ -91,11 +91,54 @@ const  ContactUs=()=>{
         </div>
         </div>
         </div>
-
-
-
         </div>
 
+
+
+
+          
+
+
+        <div className="h-[270px] bg-[#F4F4F4] mt-[33px] flex items-center ">
+          <div className="m-auto w-[250px] md:m-auto md:w-[800px]  ">
+           
+          
+          <div className="md:grid md:gap-16 md:grid-cols-3      flex flex-col gap-5  ">
+       
+          <div className="flex gap-5">
+            
+          <Image src="/image/Group.png" alt="logo" width={52.77} height={60}/>
+          <div>
+          <h1>High Quality</h1>
+          <p className="text-[#898989] text-nowrap">crafted from top materials</p>
+          </div>
+          </div>
+
+
+
+          <div className="flex gap-5">
+          <Image src="/image/guarantee.png" alt="logo" width={52.77} height={60}/>
+          <div>
+          <h1>Warranty Protection</h1>
+          <p className="text-[#898989]">Over 2 years</p>
+          </div>
+          </div>
+
+
+
+          <div className="flex gap-5">
+          <Image src="/image/Vector (17).png" alt="logo" width={52.77} height={60}/>
+          <div>
+          <h1>24 / 7 Support</h1>
+          <p className="text-[#898989]">Dedicated support</p>
+          </div>
+          </div>
+        </div>
+        </div>
+
+        </div>
+        
+        
 
 
 
