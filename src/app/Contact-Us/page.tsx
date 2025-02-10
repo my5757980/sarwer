@@ -7,7 +7,7 @@ const  ContactUs=()=>{
 
 
         <div>
-           <h1 className="text-center pt-[55px] font-bold text-[20px]">Get In Touch With Us</h1>
+           <h1 className="text-center pt-[55px] font-bold text-[20px] ">Get In Touch With Us</h1>
            <p className="text-center text-[#9F9F9F] pb-[33px]">For More Information About Our Product & Services. Please Feel Free To Drop Us An Email. Our Staff Always Be There To Help You Out. Do Not Hesitate!</p>
         </div>
 
@@ -61,7 +61,7 @@ const  ContactUs=()=>{
 
 
 
-          <div className="md:col-span-1">
+          <div className="md:col-span-1 ">
         <h1 className="pb-[11px] pt-[22px] ">your name</h1>
         <input className="h-[44px] border-[2px]     "placeholder="ABC"/>
         

@@ -19,7 +19,7 @@ export default function Footer(){
 
           <div className="mt-[44px] flex flex-col gap-2">
             <div className="flex gap-1">
-         <Image className="sm:w-[36px] sm:h-[36px]"src="/image/Logo Icon.png" alt="logo" width={26} height={26}/>
+         <Image className=" animate-bounce sm:w-[36px] sm:h-[36px]"src="/image/Logo Icon.png" alt="logo" width={26} height={26}/>
          <p className="text-[#272343] font-bold sm:text-[25px]">Comforty</p>
          </div>
          <p className="text-[#272343] sm:text-[20px] ">Vivamus tristique odio sit amet velit semper, eu posuere turpis interdum.Cras egestas purus </p>

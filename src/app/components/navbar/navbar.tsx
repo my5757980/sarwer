@@ -74,7 +74,7 @@ export default function Navbar() {
         <div className="md:bg-[#F0F2F3] md:h-[100px] md:flex md:items-center md:justify-around hidden">
 
           <div className="md:flex md:items-center md:gap-2">
-            <Image src="/image/Logo Icon.png" alt="logo" width={50} height={50} />
+            <Image className="animate-pulse "src="/image/Logo Icon.png" alt="logo" width={50} height={50} />
             <p className="md:text-[25px] md:font-medium">Comforty</p>
           </div>
 
