@@ -1,6 +1,5 @@
 
 interface books {
-  _id: number,
   title: string,
   description: string,
   price: number,
@@ -15,7 +14,6 @@ import { client } from "@/sanity/lib/client";
 import { BsCartDash } from "react-icons/bs";
 export default async function SingleProductPage({ params }: { params: { productid: string } }) {
   const data = await client.fetch<books[]>(`*[_type == 'products']{
-          _id,
        title,price,
        description,
          "imageUrl":image.asset->url,

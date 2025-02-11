@@ -1,9 +1,9 @@
 interface books {
-  _id: number,
   id: number,
   title: string,
   price: number,
   imageUrl: string,
+  _id:number,
 }
 
 import { client } from '@/sanity/lib/client';
@@ -14,7 +14,7 @@ import ProductListing from '../components/product-listing/product-listing';
 
 export default async function Product() {
   const data = await client.fetch<books[]>(`*[_type == 'products']{
-      _id,
+    _id,
    title,price,
      "imageUrl":image.asset->url,
      _id

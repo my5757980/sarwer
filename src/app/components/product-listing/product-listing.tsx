@@ -1,20 +1,23 @@
 interface books {
-  id: number,
   title: string,
   price: number,
   imageUrl: string,
+  _id:number,
 }
 
 
 import Image from "next/image"
 import { BsCartDash } from "react-icons/bs";
+import Link from "next/link";
 
 const ProductListing =({elem}:{elem:books})=>{
     return(
         
 
         <div className="  hover:bg-blue-100 transition-transform transform hover:scale-110  duration-500 shadow-xl md:w-[230px]  w-[225px] mb-[33px]">
+              
 
+              <Link href={`/productdetails/${elem._id}`}>
             <Image className="  " src={elem.imageUrl} alt={elem.title} width={220} height={312} />
             <div className="flex">
               <p className="text-[#007580] w-[145px] ">{elem.title}</p>
@@ -22,7 +25,7 @@ const ProductListing =({elem}:{elem:books})=>{
             </div>
             <h1 className="relative bottom-[20px]  ">${elem.price}</h1>
             <h1 className=" relative bottom-[270px] left-[15px] bg-[#01AD5A] w-[49px] h-[26px] text-center text-white rounded-[4px] ">New</h1>
-      
+            </Link>
         </div>
       
     )

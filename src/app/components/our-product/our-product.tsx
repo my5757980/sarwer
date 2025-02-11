@@ -3,6 +3,7 @@ interface books {
     title: string,
     price: number,
     imageUrl: string,
+    _id:number,
   }
   
 
@@ -17,7 +18,7 @@ import ProductListing from '../product-listing/product-listing';
 
 export default async function Product() {
   const data = await client.fetch<books[]>(`*[_type == 'products']{
-      _id,
+    _id,
    title,price,
      "imageUrl":image.asset->url,
      _id
