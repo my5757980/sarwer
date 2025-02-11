@@ -19,7 +19,7 @@ export default function HeroSection(){
        
        <Link href="/Product">
         <div className="flex">
-        <button className="lg:w-[140px] lg:h-[50px] lg:text-[18px]  md:w-[120px]  md:text-[15px] md:h-[40px] bg-[#029FAE] sm:w-[100px] sm:h-[35px] w-[80px] rounded-[4px] sm:text-[12px] h-[33px] text-white pr-[20px] text-[10px] text-nowrap">Shop Now</button>
+        <button className="  duration-1000 hover:w-[200px] hover:bg-slate-900      lg:w-[140px] lg:h-[50px] lg:text-[18px]  md:w-[120px]  md:text-[15px] md:h-[40px] bg-[#029FAE] sm:w-[100px] sm:h-[35px] w-[80px] rounded-[4px] sm:text-[12px] h-[33px] text-white pr-[20px] text-[10px] text-nowrap">Shop Now</button>
         <Image className=" lg:relative lg:top-[19px] md:relative md:top-[15px]  relative right-[22px] top-[11px] size-3"src="/image/Line.png" alt="logo" width={24} height={24}/>
         </div>
         </Link>

@@ -87,7 +87,7 @@ const  ContactUs=()=>{
 
 
          <div className="pt-[33px]">
-          <button className=" text-white items-center text-center  place-items-center  border-[1px] border-[#B88E2F]  rounded-[5px] w-[237px] h-[57px] bg-[#029FAE]">Submit</button>
+          <button className=" duration-1000 hover:w-[300px] hover:bg-slate-900    text-white items-center text-center  place-items-center  border-[1px] border-[#B88E2F]  rounded-[5px] w-[237px] h-[57px] bg-[#029FAE]">Submit</button>
         </div>
         </div>
         </div>

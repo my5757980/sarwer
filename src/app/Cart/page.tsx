@@ -119,7 +119,7 @@ export default function Cart() {
                                 <h1 className="sm:text-[19px] ">$198.00</h1>
                             </div>
 
-                            <button className=" mt-[33px] bg-[#029FAE] w-[300px] h-[55px] rounded-[30px] text-white">Checkout</button>
+                            <button className=" duration-1000 hover:w-[200px] hover:bg-slate-900    mt-[33px] bg-[#029FAE] w-[300px] h-[55px] rounded-[30px] text-white">Checkout</button>
                         </div>
                     </div>
                 </div>
