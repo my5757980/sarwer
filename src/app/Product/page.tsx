@@ -62,7 +62,7 @@ export default async function Product() {
 
 
 
-                  <div className="transition-transform transform hover:scale-110  duration-500 shadow-xl md:w-[230px]  w-[225px]">
+                  <div className="  hover:bg-blue-100 transition-transform transform hover:scale-110  duration-500 shadow-xl md:w-[230px]  w-[225px]">
                     <Link href={`/productdetails/${elem._id}`}>
                       <Image className="  " src={elem.imageUrl} alt={elem.title} width={220} height={312} />
                       <div className="flex">

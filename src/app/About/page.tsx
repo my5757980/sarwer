@@ -88,21 +88,21 @@ export default function About() {
 
   
 
-            <div className=" shadow-xl mb-[33px] transition-transform transform hover:scale-95  duration-500">
+            <div className=" shadow-xl mb-[33px]  hover:bg-blue-100 transition-transform transform hover:scale-95  duration-500">
               <Image className="md:h-[250px] lg:w-[500px] lg:h-[395px] " src="/image/Large.png" alt="logo" width={200} height={1} />
               <h1 className="text-[14px] lg:text-[20px] ">The Poplar suede sofa</h1>
               <p className="text-[12px] pb-[15px] lg:text-[15px] ">$99.00</p>
             </div>
 
 
-            <div className=" shadow-xl mb-[33px] transition-transform transform hover:scale-95  duration-500">
+            <div className=" shadow-xl mb-[33px]  hover:bg-blue-100 transition-transform transform hover:scale-95  duration-500">
               <Image className=" lg:w-[500px]" src="/image/Photo.png" alt="logo" width={200} height={1} />
               <h1 className="text-[14px]  lg:text-[20px] ">The Dandy chair</h1>
               <p className="text-[12px] pb-[15px] lg:text-[15px]">$99.00</p>
             </div>
 
 
-            <div className=" shadow-xl mb-[33px] transition-transform transform hover:scale-95  duration-500">
+            <div className=" shadow-xl mb-[33px]  hover:bg-blue-100 transition-transform transform hover:scale-95  duration-500">
               <Image className="lg:w-[500px]"  src="/image/Parent.png" alt="logo" width={200} height={1} />
               <h1 className="text-[14px] lg:text-[20px]  ">The Dandy chair</h1>
               <p className="text-[12px] lg:text-[15px]">$99.00</p>

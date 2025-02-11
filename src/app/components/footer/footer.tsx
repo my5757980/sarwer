@@ -24,11 +24,11 @@ export default function Footer(){
          </div>
          <p className="text-[#272343] sm:text-[20px] ">Vivamus tristique odio sit amet velit semper, eu posuere turpis interdum.Cras egestas purus </p>
          <div className="flex items-center gap-2 mb-[22px]">
-         <Image className="sm:w-[32px] sm:h-[32px]"src="/image/Group 44.png" alt="logo" width={28} height={28}/>
-         <FaTwitter className="text-[#636270] sm:size-6"/>
-         <FaInstagram className="text-[#636270] sm:size-6"/>
-         <FaPinterest className="text-[#636270] sm:size-6"/>
-         <FaYoutube className="text-[#636270] sm:size-6"/>
+         <Image className=" animate-bounce sm:w-[32px] sm:h-[32px]"src="/image/Group 44.png" alt="logo" width={28} height={28}/>
+         <FaTwitter className="text-[#636270] animate-bounce sm:size-6"/>
+         <FaInstagram className="text-[#636270] animate-bounce sm:size-6"/>
+         <FaPinterest className="text-[#636270] animate-bounce sm:size-6"/>
+         <FaYoutube className="text-[#636270] animate-bounce sm:size-6"/>
          </div>
          </div>
 

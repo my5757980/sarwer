@@ -34,13 +34,15 @@ export default function Navbar() {
 
 
 
+
+
+
             <Link className="group px-2 py-3 transition-all" href="">
               <p className="flex cursor-pointer items-center gap-2 text-neutral-400 group-hover:text-gray-400">
                 <span>Eng</span>
                 <IoIosArrowDown className="rotate-180 transition-all group-hover:rotate-0" />
               </p>
               <div className="absolute top-10 hidden w-auto flex-col gap-1 rounded-lg bg-white py-3 shadow-md transition-all  group-hover:flex">
-
                 <div className="flex cursor-pointer items-center py-1 pl-6 pr-8 text-neutral-400 hover:text-black" >
                   <ul>
                     <li>
@@ -56,6 +58,8 @@ export default function Navbar() {
                 </div>
               </div>
             </Link>
+
+
 
 
 
