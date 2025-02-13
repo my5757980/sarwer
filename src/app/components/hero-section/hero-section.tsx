@@ -1,6 +1,16 @@
+'use client';
+
+
+import { useEffect } from "react";
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 import Image from "next/image"
 import Link from "next/link"
 export default function HeroSection(){
+   useEffect(() => {
+      Aos.init({ duration: 1000 });
+    }, []);
+  
   return(
     <div className="overflow-x-hidden">
       
@@ -9,7 +19,7 @@ export default function HeroSection(){
 
       {/* hero section */}
 
-      <div className="m-auto w-[240px]   sm:m-auto sm:w-[300px]    md:m-auto md:w-[400px] lg:m-auto lg:w-[700px]   ">
+      <div data-aos="fade-down"className="m-auto w-[240px]   sm:m-auto sm:w-[300px]    md:m-auto md:w-[400px] lg:m-auto lg:w-[700px]   ">
 
 
         <Image className="  md:mt-[33px] lg:w-[800px] sm:w-[400px] md:w-[500px]" src="/image/BG.png" alt="logo" width={300} height={850}/>

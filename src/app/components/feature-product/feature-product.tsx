@@ -11,10 +11,10 @@ export default function FeatureProduct() {
 
 
 
-         <h1 className="text-center font-bold text-[22px] pb-[33px]  md:relative md:left-[-130px]  lg:relative lg:left-[-350px]">Featured Products</h1>
+         <h1 data-aos="fade-left"className="text-center font-bold text-[22px] pb-[33px]  md:relative md:left-[-130px]  lg:relative lg:left-[-350px]">Featured Products</h1>
 
 
-         <div className="m-auto w-[200px] md:m-auto md:w-[450px]  lg:m-auto  lg:w-[900px]">
+         <div data-aos="fade-down"className="m-auto w-[200px] md:m-auto md:w-[450px]  lg:m-auto  lg:w-[900px]">
 
             <div className="md:grid md:gap-5 md:grid-cols-2   lg:grid  lg:gap-5  lg:grid-cols-4    mb-[33px]      flex flex-col gap-16">
 

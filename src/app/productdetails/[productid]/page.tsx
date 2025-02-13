@@ -46,7 +46,7 @@ export default async function SingleProductPage({ params }: { params: { producti
         {/* section 1 */}
 
         <div className="w-[200px] m-auto        md:w-[700px] md:m-auto flex flex-col gap-2">
-          <div className="md:grid md:gap-5 md:grid-cols-2">
+          <div data-aos="fade-down"className="md:grid md:gap-5 md:grid-cols-2">
             <div className="md:col-span-1 lg:w-[500px] lg:m-auto">
               <Image className=" md:mt-[33px] lg:h-[500px] lg:relative lg:right-[140px] lg:w-[500px] md:w-[700px] md:h-[400px] sm:w-[250px]" src={product.imageUrl} alt="logo" width={200} height={607} />
             </div>
@@ -72,13 +72,13 @@ export default async function SingleProductPage({ params }: { params: { producti
 
 
           <div className="flex justify-center gap-24 sm:flex pb-[33px] ">
-            <h1 className="font-bold sm:text-[15px] sm:text-nowrap md:mt-[40px] md:mr-[410px] text-nowrap sm:mr-[150px] lg:mr-[710px]">Featured Products</h1>
-            <h1 className=" underline font-bold sm:text-[15px] sm:text-nowrap  md:mt-[40px] text-nowrap">View  all</h1>
+            <h1 data-aos="flip-right"className="font-bold sm:text-[15px] sm:text-nowrap md:mt-[40px] md:mr-[410px] text-nowrap sm:mr-[150px] lg:mr-[710px]">Featured Products</h1>
+            <h1 data-aos="flip-right"className=" underline font-bold sm:text-[15px] sm:text-nowrap  md:mt-[40px] text-nowrap">View  all</h1>
           </div>
 
 
           <div className="m-auto w-[200px] md:m-auto md:w-[500px] lg:m-auto lg:w-[1000px]">
-            <div className="md:grid md:gap-5 md:grid-cols-2 lg:grid lg:gap-5 lg:grid-cols-5 flex flex-col gap-12 pb-[44px]">
+            <div data-aos="fade-right"className="md:grid md:gap-5 md:grid-cols-2 lg:grid lg:gap-5 lg:grid-cols-5 flex flex-col gap-12 pb-[44px]">
 
 
               <div className="shadow-xl  w-[170px] h-[210px]  hover:bg-blue-100 transition-transform transform hover:scale-110  duration-500  ">

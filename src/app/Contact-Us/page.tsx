@@ -1,14 +1,21 @@
+'use client';
 import { IoLocation } from "react-icons/io5";
 import { FaPhoneAlt } from "react-icons/fa";
+import { useEffect } from "react";
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 import Image from "next/image";
-const  ContactUs=()=>{
+export default function ContactUs(){
+  useEffect(() => {
+      Aos.init({ duration: 1000 });
+    }, []);
     return(
         <div className="overflow-x-hidden">
 
 
         <div>
-           <h1 className="text-center pt-[55px] font-bold text-[20px] ">Get In Touch With Us</h1>
-           <p className="text-center text-[#9F9F9F] pb-[33px]">For More Information About Our Product & Services. Please Feel Free To Drop Us An Email. Our Staff Always Be There To Help You Out. Do Not Hesitate!</p>
+           <h1 data-aos="fade-left"className="text-center pt-[55px] font-bold text-[20px] ">Get In Touch With Us</h1>
+           <p  data-aos="fade-left"className="text-center text-[#9F9F9F] pb-[33px]">For More Information About Our Product & Services. Please Feel Free To Drop Us An Email. Our Staff Always Be There To Help You Out. Do Not Hesitate!</p>
         </div>
 
 
@@ -21,7 +28,7 @@ const  ContactUs=()=>{
 
 
          <div className="md:col-span-1">
-        <div className="flex ">
+        <div data-aos="fade-right" className="flex ">
         <IoLocation className="size-8"/>
         <div className="relative left-[8px] top-[8px]">
         <h1 className="text-[12px] font-bold">Address</h1>
@@ -31,7 +38,7 @@ const  ContactUs=()=>{
         
 
 
-        <div className="flex    pt-[33px]">
+        <div data-aos="fade-right"className="flex    pt-[33px]">
         <FaPhoneAlt className="size-8"/>
         <div className="relative left-[12px] top-[8px]">
         <h1 className="text-[12px] font-bold">Phone</h1>
@@ -45,7 +52,7 @@ const  ContactUs=()=>{
     
 
 
-        <div className="flex    pt-[33px]">
+        <div data-aos="fade-right" className="flex    pt-[33px]">
         <Image className="size-8"src="/image/bi_clock-fill.png" alt="logo" width={1} height={1}/>
         <div className="relative left-[12px] top-[8px]">
         <h1 className="text-[12px] font-bold">Working Time</h1>
@@ -61,7 +68,7 @@ const  ContactUs=()=>{
 
 
 
-          <div className="md:col-span-1 ">
+          <div data-aos="fade-left"className="md:col-span-1 ">
         <h1 className="pb-[11px] pt-[22px] ">your name</h1>
         <input className="h-[44px] border-[2px]     "placeholder="ABC"/>
         
@@ -100,7 +107,7 @@ const  ContactUs=()=>{
 
 
         <div className="h-[270px] bg-[#F4F4F4] mt-[33px] flex items-center ">
-          <div className="m-auto w-[250px] md:m-auto md:w-[800px]  ">
+          <div data-aos="zoom-in" className="m-auto w-[250px] md:m-auto md:w-[800px]  ">
            
           
           <div className="md:grid md:gap-16 md:grid-cols-3      flex flex-col gap-5  ">
@@ -154,4 +161,3 @@ const  ContactUs=()=>{
     )
 }
 
-export default ContactUs 

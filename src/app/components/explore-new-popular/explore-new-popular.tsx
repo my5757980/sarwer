@@ -9,7 +9,7 @@ export default function ExploreNewPopular(){
 
      {/* Explore new and popular styles */}
                
-           <div className=" m-auto w-[400px] sm:w-[400px] sm:m-auto md:w-[600px] md:m-auto ">
+           <div data-aos="zoom-in"className=" m-auto w-[400px] sm:w-[400px] sm:m-auto md:w-[600px] md:m-auto ">
           <h1 className=" md:text-[17px] md:relative md:right-[288px] md:top-[-6px] md:font-bold rotate-[-90deg] text-[12px] relative right-[180px] top-[5px] sm:relative sm:top-[3px] sm:text-[13px]  ">Explore new and popular styles</h1>
           <div className="flex">
           <Image className=" md:w-[800px] sm:w-[180px] ml-[26px]"src="/image/item-category 1.png" alt="logo" width={120} height={100}/>

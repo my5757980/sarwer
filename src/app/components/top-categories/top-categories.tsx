@@ -27,11 +27,11 @@ import { client } from "@/sanity/lib/client";
     <div className="overflow-x-hidden">
       {/* Top Categories */}
       <div className="m-auto w-[200px] sm:m-auto sm:w-[250px] md:m-auto md:w-[700px] lg:m-auto lg:w-[800px]">
-        <h1 className="mt-[35px] mb-[35px] text-[18px] sm:text-[20px] md:text-[22px] lg:text-[25px] font-bold">
+        <h1 data-aos="fade-left"className="mt-[35px] mb-[35px] text-[18px] sm:text-[20px] md:text-[22px] lg:text-[25px] font-bold">
           Top Categories
         </h1>
 
-        <div className="md:flex md:gap-5 lg:flex lg:gap-12">
+        <div data-aos="fade-down"className="md:flex md:gap-5 lg:flex lg:gap-12">
           {data.map((elem) => (
             <div key={elem.id}>
               <div>

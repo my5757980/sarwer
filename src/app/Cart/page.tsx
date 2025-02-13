@@ -1,7 +1,16 @@
+'use client';
+
+
+import { useEffect } from "react";
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 import { CiHeart } from "react-icons/ci";
 import { RiDeleteBin6Line } from "react-icons/ri";
 import Image from "next/image"
 export default function Cart() {
+    useEffect(() => {
+        Aos.init({ duration: 1000 });
+      }, []);
     return (
         <div className="overflow-hidden">
 
@@ -12,7 +21,7 @@ export default function Cart() {
             <div className="lg:grid lg:gap-5 lg:grid-cols-6">
 
                 <div className="col-span-3">
-                    <div className="m-auto w-[16rem] md:w-[350px]  ">
+                    <div data-aos="slide-right"className="m-auto w-[16rem] md:w-[350px]  ">
 
 
                         <h1 className="  mb-[22px] text-[28px] sm:text-[33px] md:text-[25px] ">Bag</h1>
@@ -52,7 +61,7 @@ export default function Cart() {
 
 
                     <div className="m-auto w-[16rem] md:w-[350px]  ">
-                        <div className="md:grid md:gap-5 md:grid-cols-2">
+                        <div data-aos="slide-right"className="md:grid md:gap-5 md:grid-cols-2">
 
                             <div className="col-span-1">
                                 <Image className=" mt-[44px] sm:w-[250px] md:w-[350px] " src="/image/Frame (3).png" alt="logo" width={150} height={150} />
@@ -94,7 +103,7 @@ export default function Cart() {
 
                 <div className="col-span-3">
                     <div className="m-auto w-[16rem]  ">
-                        <div className="">
+                        <div data-aos="zoom-in" className="">
 
                             <h1 className="mt-[44px] text-[22px] font-bold mb-[22px] sm:text-[25px] ">Summary</h1>
 

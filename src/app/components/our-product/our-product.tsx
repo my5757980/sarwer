@@ -1,11 +1,11 @@
 interface books {
-    id: number,
-    title: string,
-    price: number,
-    imageUrl: string,
-    _id:number,
-  }
-  
+  id: number,
+  title: string,
+  price: number,
+  imageUrl: string,
+  _id: number,
+}
+
 
 
 
@@ -26,11 +26,11 @@ export default async function Product() {
  }`)
 
   console.log(data)
-    return (
-        <div className="overflow-x-hidden">
-        {/* Heading */}
+  return (
+    <div className="overflow-x-hidden">
+      {/* Heading */}
       <div>
-        <p className="    text-center text-[20px] font-bold pt-[44px] pb-[22px] lg:text-[30px]   ">Our Product</p>
+        <p data-aos="slide-right"className="    text-center text-[20px] font-bold pt-[44px] pb-[22px] lg:text-[30px]   ">Our Product</p>
       </div>
 
 
@@ -38,27 +38,26 @@ export default async function Product() {
       {/* All products */}
 
       <div className="w-[220px] m-auto  md:w-[450px] md:m-auto lg:m-auto lg:w-[1000px]    ">
-        <div className=" flex flex-col gap-16 md:grid md:gap-5 md:grid-cols-2 lg:grid lg:gap-5 lg:grid-cols-4 ">
+        <div data-aos="fade-down"className=" flex flex-col gap-16 md:grid md:gap-5 md:grid-cols-2 lg:grid lg:gap-5 lg:grid-cols-4 ">
 
 
           {
-            
-            data.slice(0,8).map((elem) => {
+
+            data.slice(0, 8).map((elem) => {
               return (
                 <div key={elem.id}>
-                
-               <ProductListing  elem ={elem}/>
-               </div>
+
+                  <ProductListing elem={elem} />
+                </div>
               )
             })
           }
-          
+
 
         </div>
-      
-      
+
+
       </div>
-    
 
 
 
@@ -66,7 +65,8 @@ export default async function Product() {
 
 
 
-        </div>
 
-    )
+    </div>
+
+  )
 }

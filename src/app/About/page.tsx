@@ -1,5 +1,16 @@
+'use client';
+
+
+import { useEffect } from "react";
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 import Image from "next/image"
-export default function About() {
+
+export default function About(){
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   return (
     <div className="overflow-x-hidden">
 
@@ -13,14 +24,14 @@ export default function About() {
               <div className="md:grid md:gap-20 md:grid-cols-2         mt-[44px]">
         
           
-          <div className="   w-[200px] h-[150px]  bg-[#007580]  lg:w-[400px] lg:h-[250px]  mb-[44px] ">
+          <div data-aos="fade-up" className="w-[200px] h-[150px]  bg-[#007580]  lg:w-[400px] lg:h-[250px]  mb-[44px] ">
             <h1 className="  ml-[9px] text-[12px] text-white font-normal pb-[8px] pt-[5px] lg:text-[33px]">About Us - Comforty</h1>
             <p className=" text-white text-[7px] ml-[9px] pb-[7px] pr-[30px] lg:text-[11px]  lg:pr-[11px]   ">At Comforty, we believe that the right chair can transform your space and elevate your comfort. Specializing in ergonomic design, premium materials, and modern aesthetics, we craft chairs that seamlessly blend style with functionality. </p>
-            <button className=" lg:w-[110px] lg:relative lg:top-[22px] lg:h-[40px]   text-[8px] bg-[#F9F9F926] w-[70px] h-[18px] ml-[9px] mt-[33px] text-white ">View Collection</button>
+            <button className=" hover:w-[200px] hover:bg-slate-900 duration-1000   lg:w-[110px] lg:relative lg:top-[22px] lg:h-[40px]   text-[8px] bg-[#F9F9F926] w-[70px] h-[18px] ml-[9px] mt-[33px] text-white ">View Collection</button>
 
           </div>
         
-            <Image className=" md:h-[150px] lg:w-[800px] lg:h-[250px]" src="/image/card (1).png" alt="logo" width={200} height={150} />
+            <Image data-aos="fade-up"className=" md:h-[150px] lg:w-[800px] lg:h-[250px]" src="/image/card (1).png" alt="logo" width={200} height={150} />
           
         </div>
         </div>
@@ -30,11 +41,11 @@ export default function About() {
         {/* paragraph section */}
        
 
-          <p className="pt-[50px] text-center font-semibold pb-[22px] lg:text-[22px]">What makes our Brand Different</p>
+          <p data-aos="fade-up"className=" pt-[50px] text-center font-semibold pb-[22px] lg:text-[22px]">What makes our Brand Different</p>
       
           <div className="m-auto w-[200px] md:m-auto md:w-[400px] lg:m-auto lg:w-[850px]">
          
-            <div className="md:grid md:gap-5 md:grid-cols-2 lg:grid lg:gap-5 lg:grid-cols-4     flex flex-col gap-5">
+            <div data-aos="fade-up" className="md:grid md:gap-5 md:grid-cols-2 lg:grid lg:gap-5 lg:grid-cols-4     flex flex-col gap-5">
         
 
 
@@ -82,9 +93,9 @@ export default function About() {
 
         
 
-          <p className="pt-[35px] pb-[30px] text-center  lg:text-[22px]">Our Popular Products </p>
-          <div className="m-auto w-[200px] md:m-auto md:w-[700px] lg:m-auto lg:w-[1000px]  ">
-           <div className="md:grid md:gap-5 md:grid-cols-3 "> 
+          <p data-aos="fade-up"className="pt-[35px] pb-[30px] text-center  lg:text-[22px]">Our Popular Products </p>
+          <div  className="m-auto w-[200px] md:m-auto md:w-[700px] lg:m-auto lg:w-[1000px]  ">
+           <div  data-aos="fade-down"className="md:grid md:gap-5 md:grid-cols-3 "> 
 
   
 
@@ -117,3 +128,4 @@ export default function About() {
 
   )
 }
+
